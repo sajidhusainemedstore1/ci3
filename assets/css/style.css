@@ -1,0 +1,98 @@
+/* General */
+body {
+    font-family: Arial, sans-serif;
+    background: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Buttons */
+a.btn, button {
+    display: inline-block;
+    padding: 8px 16px;
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    transition: 0.3s;
+    margin: 2px;
+}
+
+a.btn-primary, button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+}
+
+a.btn-primary:hover, button:hover {
+    background: #0056b3;
+}
+
+a.btn-danger {
+    background: #dc3545;
+    color: #fff;
+}
+
+a.btn-danger:hover {
+    background: #a71d2a;
+}
+
+/* Table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 15px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th {
+    background: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: left;
+}
+
+td {
+    padding: 10px;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background: #f2f2f2;
+}
+
+/* Forms */
+form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+}
+
+form button {
+    width: 100%;
+    margin-top: 10px;
+}
