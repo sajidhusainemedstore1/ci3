@@ -3,7 +3,7 @@ class User_model extends CI_Model {
 
     // Fetch all users
     public function get_all() {
-        return $this->db->get('users')->result();
+        return $this->db->get('users')->result_array();
     }
 
     // Insert new user
@@ -13,7 +13,7 @@ class User_model extends CI_Model {
 
     // Get single user by ID
     public function get_by_id($id) {
-        return $this->db->get_where('users', ['id' => $id])->row();
+        return $this->db->get_where('users', ['id' => $id])->row_array();
     }
 
     // Update user
