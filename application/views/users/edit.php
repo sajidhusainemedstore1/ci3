@@ -7,8 +7,8 @@
 <body>
     <h2>Edit User</h2>
     <form method="post">
-        Name: <input type="text" name="name" value="<?php echo $user->name; ?>" required><br><br>
-        Email: <input type="email" name="email" value="<?php echo $user->email; ?>" required><br><br>
+        Name: <input type="text" name="name" value="<?php echo $user['name']; ?>" required><br><br>
+        Email: <input type="email" name="email" value="<?php echo $user['email']; ?>" required><br><br>
         <button type="submit">Update</button>
     </form>
 </body>
